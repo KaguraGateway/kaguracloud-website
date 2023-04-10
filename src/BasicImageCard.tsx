@@ -1,5 +1,5 @@
 import { Box, Paper, Typography } from "@mui/material";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 export interface BasicImageCardProps {
     title: string;
