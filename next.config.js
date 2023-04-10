@@ -4,7 +4,10 @@ const nextConfig = {
   experimental: {
     runtime: 'experimental-edge',
   },
-  swcMinify: true
+  swcMinify: true,
+  images: {
+    unoptimized: true,
+  },
 }
 
 module.exports = nextConfig
