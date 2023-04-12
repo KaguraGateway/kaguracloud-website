@@ -8,7 +8,7 @@ export default function AppNavBar() {
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <a href="https://kagura.cloud">
-                        <Image src={logoPng} alt="Kagura Cloud" />
+                        <Image src={logoPng} alt="Kagura Cloud" width="100" height="56" />
                     </a>
                 </Toolbar>
             </Container>
