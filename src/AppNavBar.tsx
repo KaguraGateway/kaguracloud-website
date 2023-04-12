@@ -4,7 +4,7 @@ import logoPng from '../public/assets/images/logo.png';
 
 export default function AppNavBar() {
     return (
-        <AppBar position="static">
+        <AppBar position="static" sx={{height: "64px"}}>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <a href="https://kagura.cloud">
